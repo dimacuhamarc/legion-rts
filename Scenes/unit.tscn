@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://da7rm1j6rny5t"]
+
+[ext_resource type="Texture2D" uid="uid://dq5qu3yvf16mx" path="res://Sprites/Tilesets/Prototypes/unit-prototype.png" id="1_cb635"]
+[ext_resource type="Script" path="res://Scripts/unit.gd" id="2_o5vho"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5s1va"]
+
+[node name="Unit" type="CharacterBody2D"]
+script = ExtResource("2_o5vho")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cb635")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_5s1va")
