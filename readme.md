@@ -4,25 +4,56 @@
 
 This is a real-time strategy (RTS) game inspired by Warcraft 3 and Warhammer, built in Godot 4 with top-down isometric pixel art. The game will feature unit selection, movement, resource management, and combat mechanics.
 
+Legend:
+- ✅ - Completed
+- 🔄 - In Progress
+- 🔄 - Planned
+- ** - Might Change
+
 ## Technologies Used
 
 - **Game Engine:** Godot 4
 - **Programming Language:** GDScript
-- **Graphics:** Pixel art (Isometric)
-- **Camera:** Isometric top-down view
+- **Graphics:** Pixel art (Isometric**)
+- **Camera:** Isometric** top-down view
 
 ## Features
 
+### Minimum Viable Product
 - ✅ Tile-based map with an isometric view
 - ✅ Camera movement and panning
 - ✅ Unit selection and movement
 - 🔄 Basic AI for enemy units (In Progress)
-- 🔄 Resource collection and base-building mechanics (Planned)
+- 🔄 Resource collection and base-building mechanics
+- 🔄 Basic combat mechanics
+
+### Stretch Goals
+- 🔄 Storyline and lore (Planned)
 - 🔄 Multiplayer functionality (Planned)
 
 ## Development Checklist
 
 ### Core Features
+- [x] Tile-based map with an isometric view
+- [x] Camera movement and panning
+- [ ] Unit selection and movement
+  - [ ] Unit selection
+  - [x] Unit movement
+  - [ ] Unit animation
+- [ ] Basic AI for enemy units
+- [ ] Resource collection and base-building mechanics
+- [ ] Basic combat mechanics
+
+### Dev Tools
+- [ ] Debug UI tool
+  - [ ] Tilemap Editor
+    - [ ] Simple Tilemap Editor
+  - [ ] Unit Editor
+    - [ ] Unit properties
+    - [ ] Unit Spawner
+  - [ ] Object Editor
+    - [ ] Object properties
+    - [ ] Object Spawner
 
 ### Gameplay Enhancements
 
@@ -31,13 +62,13 @@ This is a real-time strategy (RTS) game inspired by Warcraft 3 and Warhammer, bu
 ## Project Structure
 
 📦 IsometricRTS
- ┣ 📂 assets/        # Sprites, textures, and sounds
- ┣ 📂 scripts/       # GDScript files
- ┣ 📂 scenes/        # Game scenes (units, UI, environment)
- ┣ 📜 main.gd        # Main game logic
- ┣ 📜 Unit.gd        # Unit movement & interactions
- ┣ 📜 Camera.gd      # Camera movement
- ┗ 📜 README.md      # Project documentation
+- ┣ 📂 assets/        # Sprites, textures, and sounds
+- ┣ 📂 scripts/       # GDScript files
+- ┣ 📂 scenes/        # Game scenes (units, UI, environment)
+- ┣ 📜 main.gd        # Main game logic
+- ┣ 📜 Unit.gd        # Unit movement & interactions
+- ┣ 📜 Camera.gd      # Camera movement
+- ┗ 📜 README.md      # Project documentation
 
 ## Getting Started
 
